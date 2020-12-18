@@ -1,5 +1,7 @@
 package nl.saxofoonleren.demo_spring_jpa.controller;
 
+import nl.saxofoonleren.demo_spring_jpa.exception.DatabaseErrorException;
+import nl.saxofoonleren.demo_spring_jpa.exception.RecordNotFoundException;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.ControllerAdvice;
